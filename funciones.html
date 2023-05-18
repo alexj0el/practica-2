@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="ingresadireccion()">lanza funcion</button>
+   
+    <button onclick="mensajeenconsola()">consola</button>
+    
+    <button onclick="alerta()">ingersar</button>
+  
+    <button onclick="pidecedula()">ingresar cedula</button>
+
+
+<script>
+
+   /* var nombre=prompt("ingresa tu nombre");
+var apellido=prompt("ingresa tu apellido");
+
+console.log("esto es un mensaje en consola");
+
+alert(`bienvenido!! ${nombre} ${apellido}`)
+
+
+
+function saludar(dia){
+    console.log("hoy estamos "+dia)
+}
+
+saludar("lunes")
+saludar("martes")
+saludar("miercoles")
+saludar("jueves")
+saludar("viernes")
+*/
+/* funcion que mepida la direccion y lo que muestro en un alet*/
+
+function muestradireccion(direccion){
+    alert("tu direccion es "+direccion)
+}
+function ingresadireccion(){
+    var direccion=prompt("ingresa tu direccion")
+muestradireccion(direccion)
+}
+
+function mensajeenconsola(){
+    console.log("tarea realizada el 16/05")
+}
+function alerta(){
+    alert("esta es una alerta")
+}
+
+function pidecedula(){
+    var  cedula = prompt("ingresar tu cedula")
+    mostrarcedula(cedula)
+
+}
+function mostrarcedula(cedula){
+    alert(`su numero de cedula es: ${cedula}`)
+}
+</script>
+
+
+
+</body>
+</html>

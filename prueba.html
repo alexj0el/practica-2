@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+
+.tarea{
+    width: 15%;
+    padding:13px ;
+    border:1px solid green;
+    border-radius: 20%;
+}
+.imagen{width: 100%;
+    border-radius: 20%;    
+}
+.btningresar{
+    background-color: rgb(43, 226, 159);
+    color:white;
+    font-size: 20px;
+    padding: 12px;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer}
+
+.btningresar :hover{
+    background-color: rgb(113, 0, 128);}
+
+    </style>
+    
+</head>
+
+<body>
+    <div class="tarea">
+        <img class="imagen" src="https://www.alfabetizaciondigital.redem.org/wp-content/uploads/2017/08/administracion.jpg" alt="">
+        <h1>la tecnologia</h1>
+    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora consequuntur numquam sint laboriosam quam tenetur minima quos sed, cumque similique, facilis impedit. Animi laudantium nam esse incidunt sequi consequatur praesentium eaque. Animi accusantium sapiente excepturi nulla error inventore, velit perspiciatis suscipit dicta id quibusdam vero nobis commodi magni ipsam veritatis perferendis nam tenetur odit officiis exercitationem. Amet eaque itaque vel.</p>
+
+<button onclick="saludar()"class="btningresar">ir a la web</button>
+
+
+
+
+    </div>
+    <script>
+function saludar(){Swal.fire(
+    'desea entrar?',
+    'That thing is still around?',
+    'question'
+  )}
+
+    </script>
+    
+</body>
+</html>
